@@ -41,6 +41,6 @@ RUN rm -rf /var/lib/apt/list*
 # Install Composer
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
 
-RUN useradd -ms /bin/bash validator
-USER validator
-WORKDIR /validator
+RUN useradd -ms /bin/bash sanitizer
+USER sanitizer
+WORKDIR /sanitizer

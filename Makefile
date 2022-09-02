@@ -50,9 +50,9 @@ test: phpunit.xml ## Test application
 ## —— Dependencies ————————————————————————————————————————————————————————————————
 
 # Internal rules
-dist-files: #phpunit.xml.dist
-#	@echo "Copy .dist files"
-#	@cp phpunit.xml.dist phpunit.xml
+dist-files: phpunit.xml.dist
+	@echo "Copy .dist files"
+	@cp phpunit.xml.dist phpunit.xml
 
 build:
 	@echo "Building images"

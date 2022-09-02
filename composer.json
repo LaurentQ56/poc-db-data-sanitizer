@@ -1,11 +1,11 @@
 {
-    "name": "laurentq56/iterator",
-    "description": "POC du pattern iterator",
+    "name": "laurentq56/poc-db-data-sanitizer",
+    "description": "POC to sanitize data from sql database",
     "type": "project",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "POCIterator\\": "src/"
+            "POCSanitizer\\": "src/"
         }
     },
     "autoload-dev": {
